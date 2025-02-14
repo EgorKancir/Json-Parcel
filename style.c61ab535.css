@@ -204,7 +204,7 @@ button {
     position: relative;
     width: 20px;
     height: 20px;
-    padding: 10px;
+    padding: 5px;
     box-sizing: border-box;
     fill: black;
     background: inherit;
@@ -212,7 +212,7 @@ button {
     cursor: pointer;
 }
 .students-table__body-btn--edit:hover {
-    fill: green;
+    color: green;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
@@ -228,24 +228,9 @@ button {
     cursor: pointer;
 }
 .students-table__body-btn--delete:hover {
-    fill: red;
+    color: red;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
-}
-.pen-svg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.basket-svg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.pen-svg, .basket-svg {
-    pointer-events: none;
 }
 
 /*# sourceMappingURL=/style.c61ab535.css.map */
